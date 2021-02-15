@@ -1,0 +1,23 @@
+/* Side-bar */
+
+.side-bar {
+  padding: 0 $unit-spacing--2;
+}
+
+.side-bar--title {
+  font-family: $typography-primary-regular;
+  font-size: $unit-spacing--1;
+  padding-bottom: $unit-spacing--2;
+}
+
+.side-bar--items {
+  font-family: $typography-primary-regular;
+  font-size: $unit-spacing--2;
+  font-weight: lighter;
+}
+
+/* From Angular Material */
+.mat-list-base .mat-list-item,
+.mat-list-base .mat-list-option {
+  height: 42px !important;
+}
