@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
+## Set up Angular Project
+
+https://angular.io/guide/setup-local
+
+## Clone repository
+
+Clone repository from GitHub and run `npm install`, if you don't node in your machine, intall that 
+https://nodejs.org/en/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
