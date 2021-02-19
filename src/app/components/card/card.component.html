@@ -1,16 +1,16 @@
-<div class="text">
-  <h4>{{ label }}</h4>
-  <span class="total">{{ total }}</span>
-  <span>
+<div class="card">
+  <div class="card--label">{{ label }}</div>
+  <div class="card--total">{{ total }}</div>
+  <span class="card--icon">
     <mat-icon color="primary">trending_up</mat-icon>
   </span>
 
-  <span class="description">
-    {{ percentage }}%
+  <span class="card--description">
+    {{ percentage }} %
   </span>
-  <span> of target</span>
+  <span class="card--text-target"> of target</span>
 </div>
-<div class="widget">
+<div class="card--widget">
   <!-- <highcharts-chart [Highcharts]="Highcharts" [options]="chartOptions"
       style="width: 100%; height: 60px; display: block;">
   </highcharts-chart> -->

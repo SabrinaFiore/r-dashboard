@@ -41,4 +41,6 @@ $dashboard-theme: mat-light-theme($dashboard-primary, $dashboard-accent, $dashbo
 @import '../src/assets/scss/elements/headings';
 
 /* Components */
+@import '../src/assets/scss/components/card';
+@import '../src/assets/scss/components/footer';
 @import '../src/assets/scss/components/side-bar';

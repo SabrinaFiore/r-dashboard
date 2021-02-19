@@ -1,0 +1,17 @@
+/* Card */
+
+.card {
+  background-color: $c-white;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  padding: $unit-spacing;
+}
+
+.card--total {
+  font-size: $unit-spacing;
+}
+
+.card--description {
+  font-size: $unit-spacing*2;
+}

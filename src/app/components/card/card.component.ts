@@ -7,10 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 
 export class CardComponent implements OnInit {
-  @Input() label: string;
-  @Input() total: string;
+  @Input() label: string = 'hola';
+  @Input() total: string = 'total';
   @Input() percentage: string;
-  @Input() data = [];
+  @Input() data = [ 1, 2, 3, 4];
 
   constructor() { }
 
