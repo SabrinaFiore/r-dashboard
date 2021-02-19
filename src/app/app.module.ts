@@ -1,16 +1,20 @@
-import { MatSidenavModule } from '@angular/material/sidenav';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DashboardComponent } from './layouts/dashboard/dashboard.component';
-import { SideBarComponent } from './side-bar/side-bar.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
-import { FooterComponent } from './footer/footer.component';
-import { MyDeviceComponent } from './my-device/my-device.component';
-import { MyEnergyComponent } from './my-energy/my-energy.component';
+import { MatIconModule } from '@angular/material/icon';
+
+import { CardComponent } from './components/card/card.component';
+import { DashboardComponent } from './layouts/dashboard/dashboard.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { MyDeviceComponent } from './sections/my-device/my-device.component';
+import { MyEnergyComponent } from './sections/my-energy/my-energy.component';
+import { MyProfileComponent } from './sections/my-profile/my-profile.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +24,8 @@ import { MyEnergyComponent } from './my-energy/my-energy.component';
     FooterComponent,
     MyDeviceComponent,
     MyEnergyComponent,
+    CardComponent,
+    MyProfileComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +33,7 @@ import { MyEnergyComponent } from './my-energy/my-energy.component';
     BrowserAnimationsModule,
     MatListModule,
     MatSidenavModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

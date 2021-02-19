@@ -2,14 +2,14 @@
   <div class="side-bar">
     <div class="profile-card side-bar">
       <div class="header">
-        <div class="side-bar--title">example@email.com</div>
+        <a mat-list-item class="side-bar--title" routerLinkActive="list-item-active" routerLink="section/my-profile">example@email.com</a>
       </div>
     </div>
 
     <mat-divider></mat-divider>
     <h2 matSubheader>Pages</h2>
-    <a mat-list-item class="side-bar--items" routerLinkActive="list-item-active" routerLink="my-device">My Device</a>
-    <a mat-list-item class="side-bar--items" routerLinkActive="list-item-active" routerLink="my-energy">My Energy</a>
+    <a mat-list-item class="side-bar--items" routerLinkActive="list-item-active" routerLink="section/my-device">My Device</a>
+    <a mat-list-item class="side-bar--items" routerLinkActive="list-item-active" routerLink="section/my-energy">My Energy</a>
     <a mat-list-item class="side-bar--items" routerLinkActive="list-item-active" routerLink="/">My state</a>
     <a mat-list-item class="side-bar--items" routerLinkActive="list-item-active" routerLink="/">My Goal</a>
     <a mat-list-item class="side-bar--items" routerLinkActive="list-item-active" routerLink="/">My Community</a>
