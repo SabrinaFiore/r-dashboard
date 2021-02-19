@@ -10,6 +10,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './footer/footer.component';
 import { MyDeviceComponent } from './my-device/my-device.component';
+import { MyEnergyComponent } from './my-energy/my-energy.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MyDeviceComponent } from './my-device/my-device.component';
     SideBarComponent,
     FooterComponent,
     MyDeviceComponent,
+    MyEnergyComponent,
   ],
   imports: [
     BrowserModule,
