@@ -15,6 +15,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MyDeviceComponent } from './sections/my-device/my-device.component';
 import { MyEnergyComponent } from './sections/my-energy/my-energy.component';
 import { MyProfileComponent } from './sections/my-profile/my-profile.component';
+import { ConsumptionDeviceComponent } from './sections/consumption-device/consumption-device.component';
+import { ImpactVisualizationComponent } from './sections/impact-visualization/impact-visualization.component';
+import { VisualizationComponent } from './sections/visualization/visualization.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { MyProfileComponent } from './sections/my-profile/my-profile.component';
     MyEnergyComponent,
     CardComponent,
     MyProfileComponent,
+    ImpactVisualizationComponent,
+    ConsumptionDeviceComponent,
+    VisualizationComponent,
   ],
   imports: [
     BrowserModule,

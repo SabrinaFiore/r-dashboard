@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 
 export class CardComponent implements OnInit {
-  @Input() label: string = 'hola';
+  @Input() label: string = 'test';
   @Input() total: string = 'total';
   @Input() percentage: string;
   @Input() data = [ 1, 2, 3, 4];
